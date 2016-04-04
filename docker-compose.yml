@@ -1,0 +1,12 @@
+version: '2'
+services:
+    consul-template:
+        build: .
+        network_mode: "host"
+        volumes:
+            - /home/vagrant:/home/developer
+            - .:/pwd
+        user: 1000:1000
+        stdin_open: true
+        tty: true
+        command: --version
