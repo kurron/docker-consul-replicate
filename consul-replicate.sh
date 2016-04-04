@@ -8,7 +8,7 @@ CMD="docker run \
        --user=$(id -u $(whoami)):$(id -g $(whoami)) \
        --volume $HOME:/home/developer \
        --volume $(pwd):/pwd \
-       kurron/docker-consul-template:0.14.0"
+       kurron/docker-consul-replicate:0.2.0"
 
 #echo $CMD
 eval $CMD $*

@@ -1,6 +1,6 @@
 version: '2'
 services:
-    consul-template:
+    consul-replicate:
         build: .
         network_mode: "host"
         volumes:
