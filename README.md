@@ -1,5 +1,5 @@
 # Overview
-This project is a simple Docker image that runs [Consul Template](https://github.com/hashicorp/consul-template), saving you from having to install it.
+This project is a simple Docker image that runs [Consul Replicate](https://github.com/hashicorp/consul-replicate), saving you from having to install it.
 
 # Prerequisites
 * a working [Docker](http://docker.io) engine
@@ -15,7 +15,7 @@ Docker Compose will automatically install the newly built image into the cache.
 
 ## Launching The Image
 
-`docker-compose up` will launch the image, proving it built correctly.  For everyday use, run `./consul-template.sh`.
+`docker-compose up` will launch the image, proving it built correctly.  For everyday use, run `./consul-replicate.sh`.
 
 # Troubleshooting
 
